@@ -1,0 +1,277 @@
+
+.HM_First{
+    margin-top: -100px;
+    height: 100vh;
+    width: 100%;
+    background: url("./../../../public/images/img1.png") ;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+} 
+.HM_First .icon_reseau{
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+}
+.HM_First .icon_reseau img {
+    margin:20px 0;
+    height: 18px;
+    width: 18px;
+}
+.HM_First img{
+    margin-left: 5%;
+}
+.HM_First .img_superman_div h1{
+   font-family: Adventure;
+   font-size: 80px;
+   font-weight: 2;
+   margin-top: -30px;
+}
+.HM_First .img_superman_div h2{
+    font-family: Adventure;
+    letter-spacing: 2px;
+}
+
+/* PARTIE CINEMA */
+
+.HM_cinema{
+    height: auto;
+    width: 100%;
+}
+.HM_cinema .cinema_contenu{
+    font-family: Cantarell;
+    width: 75%;
+    margin-left: 12.5%;
+    
+}
+.HM_cinema .cinema_contenu p{
+    margin-top: 35px;
+text-align: justify;
+}
+.HM_cinema .cinema_contenu .cinema_image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+.HM_cinema .cinema_contenu .cinema_image img{
+    width: 30%;
+    height: 450px;
+}
+.multimedia{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.HM_multimedia{
+    height: auto;
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.HM_multimedia .presentation_film{
+    height: 150px;
+    width: 45%;
+    display: flex; 
+    background-color: #1f1f1f;
+    margin-bottom: 30px;
+    font-family: Cantarell;
+}
+.HM_multimedia .presentation_film div{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:0 7px;
+}
+.HM_multimedia .presentation_film p{
+    font-size: 13px;
+}
+.HM_multimedia .presentation_film div .HM_p{
+    font-size: 11px;
+    text-align: justify;
+}
+
+
+/* .......................... PARTIE TRAILER */
+
+.HM_trailer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0; 
+}
+.HM_trailer .trailer_content{
+    height: 500px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HM_trailer .trailer_content *{
+    height: 100%;
+    width: 100%;
+}
+
+/* .......................... PARTIE CONTACT */
+.HM_contact{
+    height: 100vh;
+    width: 100%;
+    background: url(./../../../public/images/img16.png) ;
+    background-position: center;
+    background-size: 100%;
+}
+.HM_contact .contact_opacity{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(90deg,rgba(31, 31, 107, 0.788) 0% ,rgba(92, 48, 12, 0.774) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cantarell;
+}
+.HM_contact .contact_opacity form{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.HM_contact .contact_opacity form label{
+  font-size: 20px;
+  font-family: Cantarell;
+  width: 100%;
+}
+.HM_contact .contact_opacity form *{
+  margin-top: 20px;
+  font-family: Cantarell;
+}
+.HM_contact .contact_opacity form .inputContact{
+width: 100%;
+border: none;
+border-bottom: solid white 1px;
+background: none;
+padding-bottom: 3px;
+}
+.HM_contact .contact_opacity form .inputContact::placeholder{
+  color: rgb(192, 192, 192);
+}
+.HM_contact .contact_opacity form .lblCoche{
+  font-size: 13px;
+}
+.HM_contact .contact_opacity form input[type='radio']{
+  margin: 0;
+}
+.HM_contact .contact_opacity form .buttonFormContact{
+  display: flex;
+  justify-content: center;
+}
+.HM_contact .contact_opacity form .buttonFormContact button{
+  margin: 0 20px;
+  background: none;
+  color: white;
+  padding:7px 20px;
+}
+.HM_contact .contact_opacity form button[type='submit']{
+  background-color: #0733BC;
+  margin-top: 30px;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  font-family: Adventure;
+}
+
+
+
+
+/* ................................PARTIE FOOTER */
+
+.HM_footer{
+  width: auto;
+  font-family: Cantarell;
+  /* background-color: #0733BC; */
+}
+.HM_footer .footerContent{
+  width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_premier img,.footer_dernier img{
+  height: 50px;
+  width: 70px;
+}
+.footer_dernier{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer_premier{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.footer_titre_film{
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(192, 192, 192);
+
+}
+.liste_citation{
+  display: flex;
+  margin-top: 35px;
+}
+.liste_citation div{
+  height: 8px;
+  width: 8px;
+  border:solid  #0733BC 1px;
+  border-radius: 50%;
+  margin: 3px;
+}
+.point_footer_white{
+  background-color: #0733BC;
+}
+
+
+
+.fin {
+  height: 100px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+  margin-bottom: 100px;
+}
+.logo_wb {
+  display: flex;
+}
+.logo_wb p {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.logo_fin {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.taille {
+  height: 33px;
+  width: 33px;
+}
+.mini {
+  height: 25px;
+  width: 25px;
+}
+.minii {
+  height: 17px;
+  width: 17px;
+}

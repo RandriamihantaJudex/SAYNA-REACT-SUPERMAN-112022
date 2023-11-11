@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Adventure;
+    src: url("../../public/font/adventure/Adventure.otf");
+  }
+  @font-face {
+    font-family: Advent;
+    src: url("../../public/font/advent-pro/AdventPro-Regular.ttf");
+  }
+  @font-face {
+    font-family: Cantarell;
+    src: url("../../public/font/cantarell/Cantarell-Regular.ttf");
+  }
+  @font-face {
+    font-family: Rajdhani;
+    src: url("../../public/font/rajdhani/Rajdhani-Regular.ttf");
+  }
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: #000000;
+}
+.navbar{
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navbar img {
+    height: 60px;
+    width: 80px;
+    margin-left: 8%;
+}
+.navbar .nvbComponent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nvbComponent a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Cantarell;
+}
